@@ -1,0 +1,42 @@
+html, body{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/myBg.jpg);
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+
+.text_container{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: inline-flex;
+    justify-content:space-around;
+}
+
+.quote{
+    width: 25%;
+    height: 22vh;
+    padding: 20px;
+    transition: all .5s ease-out;
+}
+
+.quote:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.quote h3{
+    color: white;
+    font-weight: 600;
+}
+
+.quote p{
+    color: white;
+    padding: 10px;
+}
+
+.q_one, .q_two, .q_three{
+    border-right: solid 2px rgba(0, 0, 0, 0.8);
+}
